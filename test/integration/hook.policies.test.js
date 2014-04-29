@@ -151,7 +151,7 @@ describe('router :: ', function() {
             fs.writeFileSync(path.resolve('../', appName, 'config/policies.js'), config);
           });
 
-          it.only('should NOT hit the `findOne` action', function(done) {
+          it('should NOT hit the `findOne` action', function(done) {
             httpHelper.testRoute('get', {
               url: 'empty/1',
               headers: {
