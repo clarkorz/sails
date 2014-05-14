@@ -94,7 +94,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails.git"
+    "url": "git://github.com/clarkorz/sails.git"
   },
   "licenses": [
     {
