@@ -86,6 +86,8 @@ describe('Request hook', function (){
           req.validate({
             bar: 'string'
           });
+          res.send(500);
+          return done(new Error('should not have made it here'));
         }
         catch (e) {
           done();
