@@ -1,7 +1,7 @@
 {
   "name": "sails",
   "author": "Mike McNeil <mike@balderdash.co>",
-  "version": "0.10.0-rc10",
+  "version": "0.10.0-rc11",
   "description": "API-driven framework for building realtime apps, using MVC conventions (based on Express and Socket.io)",
   "homepage": "http://sailsjs.org",
   "keywords": [
@@ -30,13 +30,13 @@
   "dependencies": {
     "express": "3.4.3",
     "waterline": "clarkorz/waterline",
-    "rc": "~0.3.3",
+    "rc": "~0.5.0",
     "sails-stringfile": "~0.3.0",
     "async": "~0.2.9",
     "lodash": "~2.4.1",
     "captains-log": "~0.11.8",
     "reportback": "~0.1.4",
-    "sails-util": "~0.10.0",
+    "sails-util": "~0.10.3",
     "colors": "~0.6.2",
     "socket.io": "~0.9.14",
     "connect-flash": "~0.1.1",
